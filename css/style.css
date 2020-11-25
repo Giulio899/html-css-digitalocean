@@ -1,4 +1,16 @@
 /* classi di debug */
+.debug_h80 {
+  height: 80px;
+  background-color: pink;
+  border: 1px solid black;
+}
+
+.debug_h50 .row {
+  height: 50px;
+  /* line-height: 150px; */
+}
+
+
 .debug_h100 .row {
   height: 100px;
   /* line-height: 150px; */
@@ -15,6 +27,8 @@
   border: 1px solid black;
   /* text-align:center; */
 }
+
+
 /* /classi di debug */
 
 
@@ -38,4 +52,8 @@
 
 #stripe4 {
   background-color: DarkOliveGreen;
+}
+
+#stripe5 {
+  background-color: DarkSalmon;
 }
