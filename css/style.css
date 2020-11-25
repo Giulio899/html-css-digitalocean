@@ -1,3 +1,4 @@
+/* classi di debug */
 .debug_h100 .row {
   height: 100px;
   /* line-height: 150px; */
@@ -14,8 +15,15 @@
   border: 1px solid black;
   /* text-align:center; */
 }
+/* /classi di debug */
 
 
+
+/* Inizio jumbotron */
 .jumbotron {
-  background-color: blue;
+  background-color: Aquamarine;
+}
+
+#stripe1 {
+  background-color: BlueViolet;
 }
