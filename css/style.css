@@ -230,10 +230,68 @@ header .header-top .nav-right ul li:last-child a {
 }
 /* /stripe 2 */
 
-
+/* Inizio stripe 3 */
 #stripe3 {
-  background-color: DarkKhaki;
+  background-color: #f3f5f9;
+  padding: 40px 0;
 }
+
+#stripe3 h2 {
+  color: #031c4e;
+}
+
+#stripe3 p {
+  margin-top: 30px;
+  font-weight: 500;
+  color: #586686;
+}
+
+#stripe3 figure::before {
+  content:'\f053';
+  font-size: 2em;
+  font-weight: bold;
+  font-family: "Font Awesome 5 Free";
+  color: #6f7b97;
+  position: relative;
+  top: 25px;
+  right: 15px;
+  cursor: pointer;
+}
+
+#stripe3 figure::after {
+  content:'\f054';
+  font-size: 2em;
+  font-weight: bold;
+  font-family: "Font Awesome 5 Free";
+  position: relative;
+  top: 25px;
+  left: 15px;
+  cursor: pointer;
+}
+
+#stripe3 figure img {
+  width: 80%;
+  margin-top: 50px;
+  vertical-align: middle;
+}
+
+#stripe3 figure figcaption {
+  margin-top: 20px;
+}
+
+#stripe3 p {
+  color: #031c4e;
+}
+
+#stripe3 .ms_slider_circle i {
+  color: #006aff;
+}
+
+#stripe3 .ms_slider_circle a:hover i {
+  color: #031c4e;
+}
+/* /stripe 3 */
+
 
 #stripe4 {
   background-color: DarkOliveGreen;
@@ -271,6 +329,14 @@ footer {
   #stripe1 .row:nth-child(2) [class*='col-'] img {
     min-width: 150px;
     max-width: 210px;
+  }
+
+  #stripe3 figure::before {
+    display: none;
+  }
+
+  #stripe3 figure::after {
+    display: none;
   }
 
 }
