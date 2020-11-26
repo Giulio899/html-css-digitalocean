@@ -89,7 +89,8 @@ header .header-top .nav-right ul li:last-child a {
 
 /* Inizio jumbotron */
 .jumbotron {
-  background-color: #004aff;
+  background-image: url('../img/bg-home-1.jpg');
+  background-size: cover;
   margin: 0;
 }
 
@@ -199,12 +200,36 @@ header .header-top .nav-right ul li:last-child a {
 #stripe1 .row:nth-child(3) a .fa-chevron-right {
   font-size: 0.8em;
 }
+/* /stripe 1 */
 
-
-
+/* Inizio stripe 2 */
 #stripe2 {
-  background-color: DarkCyan;
+  padding: 40px 0;
 }
+
+#stripe2 h2 {
+  color: #031c4e;
+}
+
+#stripe2 ul {
+  border-left: 2px solid #ccc;
+  padding-left: 10px;
+  color: #75809a;
+  margin-bottom: 25px;
+}
+
+#stripe2 p {
+  font-weight: 500;
+  color: #5c6a88;
+  margin-bottom: 30px;
+}
+
+#stripe2 img {
+  height: 40px;
+  margin-bottom: 5px;
+}
+/* /stripe 2 */
+
 
 #stripe3 {
   background-color: DarkKhaki;
