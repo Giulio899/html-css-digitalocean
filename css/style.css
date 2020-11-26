@@ -51,6 +51,10 @@ a.ms_btn:hover {
   background-color: rgba(26, 115, 232, 0.1);
 }
 
+h2 {
+  font-weight: 600;
+}
+
 /* /classi generali */
 
 
@@ -174,7 +178,7 @@ header .header-top .nav-right ul li:last-child a {
 /* Inizio stripe 1 */
 #stripe1 {
   background-color: #f3f5f9;
-  padding: 40px 0;
+  padding: 50px 0;
 }
 
 #stripe1 h4 {
@@ -197,6 +201,10 @@ header .header-top .nav-right ul li:last-child a {
   color: #006aff;
 }
 
+#stripe1 .row:nth-child(3) a:hover {
+  text-decoration: underline;
+}
+
 #stripe1 .row:nth-child(3) a .fa-chevron-right {
   font-size: 0.8em;
 }
@@ -204,7 +212,7 @@ header .header-top .nav-right ul li:last-child a {
 
 /* Inizio stripe 2 */
 #stripe2 {
-  padding: 40px 0;
+  padding: 50px 0;
 }
 
 #stripe2 h2 {
@@ -233,7 +241,7 @@ header .header-top .nav-right ul li:last-child a {
 /* Inizio stripe 3 */
 #stripe3 {
   background-color: #f3f5f9;
-  padding: 40px 0;
+  padding: 50px 0;
 }
 
 #stripe3 h2 {
@@ -292,10 +300,35 @@ header .header-top .nav-right ul li:last-child a {
 }
 /* /stripe 3 */
 
-
+/* Inizio stripe 4 */
 #stripe4 {
-  background-color: DarkOliveGreen;
+  padding: 50px 0;
 }
+
+#stripe4 h2 {
+  margin-bottom: 50px;
+}
+
+#stripe4 a {
+  color: #006aff;
+}
+
+#stripe4 a:hover {
+  text-decoration: underline;
+}
+
+#stripe4 img {
+  height: 45px;
+  margin-bottom: 5px;
+}
+
+#stripe4 .col-xs-12 {
+  margin-bottom: 30px;
+}
+
+/* /stripe 4 */
+
+
 
 #stripe5 {
   background-color: DarkSalmon;
