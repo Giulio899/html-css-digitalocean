@@ -48,7 +48,7 @@ a.ms_btn {
 
 a.ms_btn:hover {
   border-color: #006aff;
-  background-color: rgba(0, 106, 255, 0.1);
+  background-color: rgba(26, 115, 232, 0.1);
 }
 
 /* /classi generali */
@@ -56,6 +56,8 @@ a.ms_btn:hover {
 
 /* Inizio header */
 header .header-top {
+  width: 100%;
+  background-color: white;
   height: 60px;
   line-height: 60px;
 }
@@ -85,12 +87,91 @@ header .header-top .nav-right ul li:last-child a {
 
 /* /header */
 
-
-
 /* Inizio jumbotron */
 .jumbotron {
-  background-color: Aquamarine;
+  background-color: #004aff;
 }
+
+.jumbotron .row {
+  margin-top: 60px;
+}
+
+.jumbotron h1 {
+  color: white;
+}
+
+.jumbotron p {
+  color: #bbc8f7;
+  font-weight: 500;
+}
+
+.jumbotron .box-right {
+  background-color: white;
+  padding: 40px 20px;
+  border-radius: 5px;
+}
+
+.jumbotron .box-right h3 {
+  font-size: 1.8em;
+  font-weight: 600;
+  margin: 0;
+}
+
+.jumbotron .box-right h3:nth-child(2) {
+  color: #006aff;
+  margin-top: 10px;
+}
+
+.jumbotron .box-right form {
+  margin-top: 10px;
+}
+
+.jumbotron .box-right form input,
+.jumbotron .box-right form button {
+  width: 100%;
+  padding: 5px 2px;
+  border: 2px solid #eee;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.jumbotron .box-right form button.ms_btn_full {
+  background-color: #579aff;
+  border: none;
+}
+
+.jumbotron .box-right form button.ms_btn_full:hover {
+  background-color: #1a73e8;
+}
+
+.jumbotron .box-right form button.ms_btn_plain {
+  color: #626262;
+  background-color: white;
+  /* box-shadow: 0 -10px 10px -10px #000; */
+  border: 1px solid #e3e3e3;
+  box-shadow: 2px 2px 2px #e3e3e3;
+}
+
+.jumbotron .box-right form button.ms_btn_plain:hover {
+  background-color: rgba(227, 227, 227, 0.1);
+
+}
+
+/* .jumbotron .box-right form button.ms_btn {
+
+} */
+
+.jumbotron .box-right small {
+  font-weight: 500;
+  display: block;
+  margin-top: 5px;
+}
+
+.jumbotron .box-right small a {
+  color: #006aff;
+  text-decoration: underline;
+}
+
 
 #stripe1 {
   background-color: BlueViolet;

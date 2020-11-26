@@ -27,16 +27,18 @@
 
 
     <!-- Inizio header top -->
-    <div class="header-top">
+    <div class="header-top navbar-fixed-top">
       <div class="container">
         <div class="row">
-          <!-- navbar left -->
+          <!-- header left -->
           <div class="col-xs-3">
             <img src="img/logo_digital_ocean.png" alt="Logo Digital Ocean">
           </div>
-          <!-- /navbar left -->
-          <!-- navbar right -->
+          <!-- /header left -->
+
+          <!-- header right -->
           <div class="col-xs-9">
+
             <!-- Toggle menu non visibile a risoluzione lg -->
             <nav class="hidden-lg text-right">
               <div class="toggle-menu">
@@ -46,6 +48,7 @@
             <!-- /toggle menu -->
 
             <!-- Voci menu visibili solo a risoluzione lg -->
+            <!-- nav-left di header right -->
             <div class="col-xs-7 visible-lg-block">
               <nav class="nav-left">
                 <ul class="list-inline">
@@ -56,7 +59,9 @@
                 </ul>
               </nav>
             </div>
+            <!-- /nav-left di header right -->
 
+            <!-- nav-right di header right -->
             <div class="col-xs-5 visible-lg-block">
               <nav class="nav-right text-right">
                 <ul class="list-inline">
@@ -67,29 +72,39 @@
                 </ul>
               </nav>
             </div>
-
-
-
-
+            <!-- nav-right -->
 
           </div>
-          <!-- /navbar right -->
+          <!-- /nav-right di header right -->
 
         </div>
       </div>
     </div>
     <!-- /header top -->
 
+    <!-- Inizio jumbotron -->
     <div class="jumbotron">
-      <div class="container debug_h200">
+      <div class="container">
         <div class="row">
           <!-- jumbotron left -->
-          <div class="col-xs-12 col-sm-8">
-            jumbotron left
+          <div class="col-xs-12 col-sm-7">
+            <h1>The simplest cloud platform for developers &amp; teams</h1>
+            <p>Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you're running one virtual machine or ten thousand.</p>
           </div>
           <!-- jumbotron right -->
-          <div class="col-xs-12 col-sm-4">
-            jumbotron right
+          <div class="col-xs-12 col-sm-5">
+            <div class="box-right">
+              <h3 class="text-center">Deploy your app in seconds.</h3>
+              <h3 class="text-center">Get started now.</h3>
+              <form action="#">
+                <input type="email" id="email" name="email" placeholder="Email">
+                <input type="password" id="pwd" name="pwd" minlength="8" placeholder="Password"><br>
+                <button type="button" class="btn btn-primary ms_btn_full">Create your account</button>
+                <button type="button" class="btn btn-default ms_btn_plain">Sign up with google</button>
+              </form>
+
+              <small class="text-center">By signing up you agree to the <a href="#">Terms of Service</a>.</small>
+            </div>
           </div>
 
         </div>
