@@ -90,6 +90,7 @@ header .header-top .nav-right ul li:last-child a {
 /* Inizio jumbotron */
 .jumbotron {
   background-color: #004aff;
+  margin: 0;
 }
 
 .jumbotron .row {
@@ -157,10 +158,6 @@ header .header-top .nav-right ul li:last-child a {
 
 }
 
-/* .jumbotron .box-right form button.ms_btn {
-
-} */
-
 .jumbotron .box-right small {
   font-weight: 500;
   display: block;
@@ -171,11 +168,39 @@ header .header-top .nav-right ul li:last-child a {
   color: #006aff;
   text-decoration: underline;
 }
+/* /jumbotron */
 
-
+/* Inizio stripe 1 */
 #stripe1 {
-  background-color: BlueViolet;
+  background-color: #f3f5f9;
+  padding: 40px 0;
 }
+
+#stripe1 h4 {
+  font-size: 1em;
+  text-transform: uppercase;
+  color: #6f7b97;
+}
+
+#stripe1 .row:nth-child(2) [class*='col-'] {
+  height: 100px;
+  line-height: 100px;
+}
+
+#stripe1 .row:nth-child(2) [class*='col-'] img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+#stripe1 .row:nth-child(3) a {
+  color: #006aff;
+}
+
+#stripe1 .row:nth-child(3) a .fa-chevron-right {
+  font-size: 0.8em;
+}
+
+
 
 #stripe2 {
   background-color: DarkCyan;
@@ -203,4 +228,39 @@ header .header-top .nav-right ul li:last-child a {
 
 footer {
   background-color: Plum;
+}
+
+
+
+
+
+
+/* Media query xs */
+@media screen and (max-width: 768px) {
+
+  #stripe1 .row:nth-child(2) [class*='col-'] {
+    height: 120px;
+    line-height: 120px;
+  }
+
+  #stripe1 .row:nth-child(2) [class*='col-'] img {
+    min-width: 150px;
+    max-width: 210px;
+  }
+
+}
+
+
+
+/* Media query md */
+@media screen and (max-width: 992px) {
+
+  .jumbotron h1 {
+    font-size: 2.5em;
+  }
+
+  .jumbotron p {
+    margin: 20px 0;
+  }
+
 }
