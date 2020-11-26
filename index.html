@@ -6,30 +6,72 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Layout Digitalocean</title>
 
+  <!-- CDN Font Awsome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  <!-- Font Roboto -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
   <!-- mio CSS -->
   <link rel="stylesheet" href="css/style.css">
+
+
 </head>
 
 
-<!--  nel body ho messo provvisoriamente la classe text-align per allineare i testi usati come segnaposto -->
-<body class="text-center">
+<body>
 
   <!-- Inizio header -->
   <header>
+
+
     <!-- Inizio header top -->
     <div class="header-top">
-      <div class="container debug_h100">
+      <div class="container">
         <div class="row">
           <!-- navbar left -->
-          <div class="col-xs-6">
-            navbar left
+          <div class="col-xs-3">
+            <img src="img/logo_digital_ocean.png" alt="Logo Digital Ocean">
           </div>
           <!-- /navbar left -->
           <!-- navbar right -->
-          <div class="col-xs-6">
-            navbar right
+          <div class="col-xs-9">
+            <!-- Toggle menu non visibile a risoluzione lg -->
+            <nav class="hidden-lg text-right">
+              <div class="toggle-menu">
+                <a href="#"><i class="fas fa-bars"></i></a>
+              </div>
+            </nav>
+            <!-- /toggle menu -->
+
+            <!-- Voci menu visibili solo a risoluzione lg -->
+            <div class="col-xs-7 visible-lg-block">
+              <nav class="nav-left">
+                <ul class="list-inline">
+                  <li><a href="#">Products <i class="fas fa-chevron-down"></i></a></li>
+                  <li><a href="#">Customers</a></li>
+                  <li><a href="#">Community <i class="fas fa-chevron-down"></i></a></li>
+                  <li><a href="#">Pricing</a></li>
+                </ul>
+              </nav>
+            </div>
+
+            <div class="col-xs-5 visible-lg-block">
+              <nav class="nav-right text-right">
+                <ul class="list-inline">
+                  <li><a href="#">Docs</a></li>
+                  <li><a href="#">Support <i class="fas fa-chevron-down"></i></a></li>
+                  <li><a href="#">Login</a></li>
+                  <li><a href="#"  class="btn btn-default ms_btn">Sign Up</a></li>
+                </ul>
+              </nav>
+            </div>
+
+
+
+
+
           </div>
           <!-- /navbar right -->
 
@@ -333,6 +375,10 @@
   </footer>
   <!-- /footer -->
 
+
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
 
 </body>
 

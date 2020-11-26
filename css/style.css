@@ -32,6 +32,60 @@
 /* /classi di debug */
 
 
+/* classi generali */
+body {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a.ms_btn {
+  border-color: #006aff;
+}
+
+a.ms_btn:hover {
+  border-color: #006aff;
+  background-color: rgba(0, 106, 255, 0.1);
+}
+
+/* /classi generali */
+
+
+/* Inizio header */
+header .header-top {
+  height: 60px;
+  line-height: 60px;
+}
+
+header .header-top img {
+  height: 30px;
+}
+
+header .header-top .toggle-menu {
+  font-size: 1.5em;
+}
+
+header .header-top .toggle-menu a {
+  color: #3a8aff;
+}
+
+header .header-top .nav-left a,
+header .header-top .nav-right a {
+  color: #031c4e;
+  font-size: 0.9em;
+  font-weight: 500;
+}
+
+header .header-top .nav-right ul li:last-child a {
+  color: #006aff;
+}
+
+/* /header */
+
+
 
 /* Inizio jumbotron */
 .jumbotron {
