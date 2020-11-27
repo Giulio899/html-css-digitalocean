@@ -311,10 +311,17 @@ header .header-top .nav-right ul li:last-child a {
 
 #stripe4 a {
   color: #006aff;
+  vertical-align: middle;
 }
 
-#stripe4 a:hover {
-  text-decoration: underline;
+#stripe4 a::after {
+  content: '\f054';
+  font-size: 0.8em;
+  font-weight: bold;
+  font-family: "Font Awesome 5 Free";
+  cursor: pointer;
+  position: relative;
+  left: 5px;
 }
 
 #stripe4 img {
@@ -327,11 +334,50 @@ header .header-top .nav-right ul li:last-child a {
 }
 
 /* /stripe 4 */
-
-
-
 #stripe5 {
-  background-color: DarkSalmon;
+  background-image: linear-gradient(to bottom right, #0048c5, #001e9a);
+  padding: 50px 0;
+}
+
+#stripe5 h2 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+#stripe5 .row:nth-child(2) .row {
+  padding: 10px 0;
+}
+
+#stripe5 .row:nth-child(2) .col-xs-12:first-child {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+#stripe5 .row:nth-child(2) .row:not(:last-child) {
+  border-bottom: 1px solid white;
+}
+
+#stripe5 .row:nth-child(2) .row [class*='col-']:nth-child(1) {
+  color: white;
+}
+
+#stripe5 .row:nth-child(2) .row [class*='col-']:nth-child(2) {
+  color: #b8c5e6;
+}
+
+#stripe5 .row:nth-child(2) .row [class*='col-']:nth-child(3) a {
+  color: #00d7d2;
+}
+
+#stripe5 .row:nth-child(2) .row [class*='col-']:nth-child(3)::after {
+  content: '\f054';
+  font-size: 0.8em;
+  font-weight: bold;
+  font-family: "Font Awesome 5 Free";
+  color: #00d7d2;
+  cursor: pointer;
+  position: relative;
+  left: 5px;
 }
 
 #stripe6 {
@@ -387,4 +433,11 @@ footer {
     margin: 20px 0;
   }
 
+}
+
+
+@media screen and (min-width: 1170px) {
+  #stripe5 .row:nth-child(2) .col-xs-12:first-child {
+    margin: 0;
+  }
 }
