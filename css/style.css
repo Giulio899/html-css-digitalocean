@@ -28,7 +28,6 @@
   /* text-align:center; */
 }
 
-
 /* /classi di debug */
 
 
@@ -36,6 +35,7 @@
 body {
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
+  position: relative;
 }
 
 a:hover {
@@ -519,12 +519,16 @@ footer small:nth-of-type(2) {
 footer .social {
   margin-top: 10px;
   font-size: 1.5em;
-  color: #7a859d
+}
+
+footer .social a:hover i {
+  color: #0080FF;
 }
 
 footer .social i {
   margin-right: 5px;
   margin-bottom: 30px;
+  color: #7a859d;
 }
 
 footer li:first-child {
@@ -544,11 +548,67 @@ footer li a {
 }
 /* /footer */
 
+/* elemento fixed per supporto */
+.ms_support {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1;
+}
+
+.ms_support_text > a {
+  display: inline-block;
+  width: 300px;
+  margin-right: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.ms_support_text p {
+  margin: 0;
+  font-weight: 500;
+  font-size: 0.9em;
+  color: #031c4e;
+}
+
+.ms_support .fas {
+  position: relative;
+  top: 5px;
+  right: 10px;
+  font-size: 1.5em;
+  color: white;
+}
+
+.ms_support figure {
+  display: inline-block;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  border-radius: 5px;
+  background-color: #006aff;
+}
+
+.ms_support .ms_support_text {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  vertical-align: bottom;
+}
+
+.ms_support figure img {
+  width: 100%;
+}
+
+.ms_support:hover .hidden {
+  display: inline-block !important;
+}
+/* /elemento fixed per supporto */
 
 
 
 
-
+/* CSS MEDIA QUERIES */
 /* Media query xs */
 @media screen and (max-width: 768px) {
 
@@ -607,8 +667,8 @@ footer li a {
 
 }
 
-
-@media screen and (min-width: 1170px) {
+/* Media query lg */
+@media screen and (min-width: 1200px) {
   #stripe5 .row:nth-child(2) .col-xs-12:first-child {
     margin: 0;
   }
